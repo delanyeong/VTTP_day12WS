@@ -24,6 +24,11 @@ public class CartService {
         itm.setQuantity(8);
         listItems.add(itm);
 
+        itm = new Item();
+        itm.setItemName("Airpods Pro");
+        itm.setQuantity(10);
+        listItems.add(itm);
+
         return listItems;
     }
 }
