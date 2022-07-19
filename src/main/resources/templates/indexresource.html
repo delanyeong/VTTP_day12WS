@@ -17,5 +17,9 @@
         <div data-th-unless="${currHour le 12}">
         Good Afternoon
         </div>
+
+        <div th:text="${currHour le 12} ? 'Good Afternoon' : 'Good Morning' ">
+            
+        </div>
 </body>
 </html>
