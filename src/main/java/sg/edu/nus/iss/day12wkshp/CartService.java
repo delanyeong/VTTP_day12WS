@@ -5,7 +5,7 @@ import java.util.List;
 
 public class CartService {
     
-    public List<Item> getShoppingItems() {
+    public static List<Item> getShoppingItems() {
     
         List<Item> listItems = new ArrayList<>();
 
